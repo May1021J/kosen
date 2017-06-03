@@ -8,7 +8,7 @@ int main(){
 	scanf("%d",&n);
 	printf("出力 : \n");
 	for(int i=1;i<=n;i++) {
-		if(i%3==0 || i%10==3 || (i/10)%10==3) {
+		if(i%3==0 || i%10==3 || (i/10)%10==3 || i/100==3) {
 			printf("ヽ(∴｀┏Д┓´)ﾉ彡#%d\n",i);
 		} else {
 			printf("%d\n",i);
